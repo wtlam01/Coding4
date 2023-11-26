@@ -9,6 +9,8 @@ header {
     padding: 10px 0px 10px 0px;
 }
 
+
+
 /* section one flex grow and shrink */
 
 .section-one {
@@ -162,6 +164,8 @@ li {
     font-size: 20px;
 }
 
+/* button style
+
 button{
     border: 1px solid blueviolet;
     border-radius: 5px;
@@ -177,7 +181,15 @@ button:hover{
     color: white;
 }
 
-footer{
+button:active{
+    background-color: #3e8e41; 
+    box-shadow: 0 5px darkred;
+    transform: translateY(4px);
+}
+
+
+/* fotter goes here */
+/* footer{
     background-color: rebeccapurple;
     height: 30px;
     text-align: center;
@@ -185,9 +197,9 @@ footer{
     font-size: x-small;
     color: white;
     padding: 10px 0px;
-}
+} */
 
-.button-one-section{
+/* .button-one-section{
     background-color: cornflowerblue;
     padding: 20px 0px;
     display: flex;
@@ -200,10 +212,6 @@ footer{
     border-radius: 10px;
     box-shadow: 10px 10px 20px black;
     width: 70%;
-}
+} */ 
 
-h1{
-    font-family: 'Josefin Sans', 'filicudi-color-pride',Verdana, Geneva, Tahoma, sans-serif, sans-serif;
-    font-size: 60px;
-    text-align: center;
-}
+
